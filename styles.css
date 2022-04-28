@@ -1,0 +1,89 @@
+* {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: -0;
+
+
+}
+.topo{
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.contentTop{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bolder;
+    color: white;
+    font-size: 7em;
+    padding-top: 5rem;
+}
+
+.navigation{
+    color: white;
+    justify-self: start;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    backdrop-filter: blur(3px);
+    border-bottom-style: solid rgb(255, 255, 255);
+}
+
+.logo{
+    font-weight: bold;
+    padding-left: 2rem;
+}
+
+.about{
+
+    padding-right: 2rem;
+}
+
+.subText{
+    color: white;
+    width: 40%;
+    padding: 1rem;
+    font-size: small;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.548);
+}
+
+.buttonBook{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;;
+    margin-top: 2rem;
+    background-color:transparent;
+    border: solid;
+    border-radius: 2px;
+    color: white;
+    backdrop-filter: blur(3px);
+
+}
+
+.buttonBook:hover{
+    transform: scale(1.1);
+    transition: transform 250ms;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;;
+    margin-top: 2rem;
+    background-color:transparent;
+    border: solid;
+    border-radius: 2px;
+    color: white;
+    backdrop-filter: blur(3px);
+
+}
